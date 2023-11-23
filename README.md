@@ -22,7 +22,17 @@ MilonMe API allows developers to access and interact with the users data. This d
 ## Getting Started
 
 ### Authentication
-TODO: add how do get api key
+To access the MilonMe API, you need to obtain an API key. Follow these steps to retrieve your API key:
+
+1. Visit the [MilonMe website](https://www.milonme.com) and open the developer tools in your browser.
+
+2. Navigate to the "Network" tab and filter requests by selecting "Fetch/XHR."
+
+3. Log in to your MilonMe account on the website.
+
+4. In the developer tools, locate the "login" POST request, and click on it.
+
+5. Under the "Headers" section of the request details, find the value for the "X-Api-Key" header. This is your API key.
 
 
 ### Base URL
