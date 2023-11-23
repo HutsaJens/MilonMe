@@ -53,9 +53,11 @@ This endpoint is used for user authentication.
 - `User-Agent`: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
 - `X-Api-Key`: [Your API Key] <!-- Redacted for security -->
 
-### After testing it seems not all of these are needed, a respone is recieved when using the following: 
+
+#### After testing it seems not all of these are needed, a respone is recieved when using the following: 
 - `Content-Type`: application/json;charset=UTF-8
 - `X-Api-Key`: [Your API Key]
+
 
 #### Request Body
 
