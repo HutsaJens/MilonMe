@@ -19,6 +19,12 @@ Welcome to the MilonMe API documentation! This document provides information on 
 ## Introduction
 MilonMe API allows developers to access and interact with the users data. This documentation outlines the various endpoints available, authentication requirements, request and response examples, and more.
 
+## Getting Started
+
+### Authentication
+TODO: add how do get api key
+
+
 ### Base URL
 All API requests should be made to the following base URL:
 ```
