@@ -8,7 +8,7 @@ Welcome to the MilonMe API documentation! This document provides information on 
   - [Authentication](#authentication)
   - [Base URL](#base-url)
 - [Endpoints](#endpoints)
-  - [Endpoint: User Login](#user-login)
+  - [Endpoint: User Login](#endpoint-user-login)
   - [Endpoint 2](#endpoint-2)
   - [Endpoint 3](#endpoint-3)
 - [Request and Response Examples](#request-and-response-examples)
