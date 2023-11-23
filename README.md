@@ -83,11 +83,11 @@ Example Response
   "idle": 0,              // Idle time (Time duration since the last activity) - [Disclaimer: Exact meaning not confirmed]
   "ip": "*****",          // Datacenter IP Address
   "d": {
-    "sid": "*****",       // Studio ID
+    "sid": "*****",       // Studio ID (As a number)
     "gender": "*****",    // User Gender
     "birthday": "*****",  // User Birthday
     "s": 3,               // Unknown (Please check API documentation)
-    "studios": "*****"    // Unique ID of the User's Studio
+    "studios": "*****"    // Studio ID (As a string)
   }
 }
 ```
