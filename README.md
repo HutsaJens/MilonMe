@@ -76,18 +76,18 @@ This endpoint is used for user authentication.
 Example Response
 ```json
 {
-  "id": "*****",          // Redacted for security
-  "r": 1,
-  "w": 1,
-  "ttl": 3600,
-  "idle": 0,
-  "ip": "*****",          // Redacted for security
+  "id": "*****",          // MilonMe User ID
+  "r": 1,                 // Read Permission (1: Allowed, 0: Denied) - [Disclaimer: Exact meaning not confirmed]
+  "w": 1,                 // Write Permission (1: Allowed, 0: Denied) - [Disclaimer: Exact meaning not confirmed]
+  "ttl": 3600,            // Time-to-Live (Time duration in seconds for the token's validity)
+  "idle": 0,              // Idle time (Time duration since the last activity) - [Disclaimer: Exact meaning not confirmed]
+  "ip": "*****",          // Datacenter IP Address
   "d": {
-    "sid": "*****",       // Redacted for security
-    "gender": "*****",    // Redacted for privacy
-    "birthday": "*****",  // Redacted for privacy
-    "s": 3,
-    "studios": "*****"    // Redacted for privacy
+    "sid": "*****",       // Studio ID
+    "gender": "*****",    // User Gender
+    "birthday": "*****",  // User Birthday
+    "s": 3,               // Unknown (Please check API documentation)
+    "studios": "*****"    // Unique ID of the User's Studio
   }
 }
 ```
