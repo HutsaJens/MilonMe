@@ -8,7 +8,7 @@ Welcome to the MilonMe API documentation! This document provides information on 
   - [Authentication](#authentication)
   - [Base URL](#base-url)
 - [Endpoints](#endpoints)
-  - [Endpoint 1](#endpoint-1)
+  - [Endpoint: User Login](#endpoint-1)
   - [Endpoint 2](#endpoint-2)
   - [Endpoint 3](#endpoint-3)
 - [Request and Response Examples](#request-and-response-examples)
@@ -24,6 +24,7 @@ All API requests should be made to the following base URL:
 ```
 https://www.milonme.com/api/user
 ```
+
 
 ## Endpoint: User Login
 ### `POST https://www.milonme.com/api/user/login`
